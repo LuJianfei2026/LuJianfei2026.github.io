@@ -2,11 +2,13 @@ baseURL = "https://Lujianfei2026.github.io/"
 languageCode = "zh-CN"
 title = "Lu Jianfei"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
+[pagination]
+  pagerSize = 10
 
 [minify]
   disableXML = true
