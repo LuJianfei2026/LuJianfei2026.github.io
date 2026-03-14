@@ -45,9 +45,6 @@ buildExpired = false
     name = "email"
     url = "mailto:hello@lujianfei.com"
 
-  [params.analytics.google]
-    SiteVerificationTag = ""
-
   [params.cover]
     hidden = false
     hiddenInList = false
