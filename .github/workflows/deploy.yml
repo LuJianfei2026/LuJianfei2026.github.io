@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.124.0
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -35,7 +35,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install PaperMod Theme
-        run: git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+        run: git clone --depth=1 --branch v7.0 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
       - name: Setup Pages
         id: pages
