@@ -53,7 +53,7 @@ buildExpired = false
     hiddenInSingle = false
 
   [params.editPost]
-    URL = "https://github.com/Lujianfei2026/my-site/tree/main/content"
+    URL = "https://github.com/LuJianfei2026/LuJianfei2026.github.io/tree/main/content"
     Text = "建议修改"
     appendFilePath = true
 
