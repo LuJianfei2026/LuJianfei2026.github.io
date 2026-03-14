@@ -1,0 +1,100 @@
+baseURL = "https://Lujianfei2026.github.io/"
+languageCode = "zh-CN"
+title = "Lu Jianfei"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Lu Jianfei"
+  description = "医疗 AI · 技术探索 · 个人思考"
+  keywords = ["医疗AI", "技术", "博客"]
+  author = "Lu Jianfei"
+  # profileMode 首页大图模式
+  [params.profileMode]
+    enabled = true
+    title = "Lu Jianfei"
+    subtitle = "医疗 AI 探索者 · 终身学习者"
+    imageUrl = "/images/avatar.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "头像"
+    [[params.profileMode.buttons]]
+      name = "文章"
+      url = "/posts"
+    [[params.profileMode.buttons]]
+      name = "关于"
+      url = "/about"
+
+  [params.homeInfoParams]
+    Title = "Hi, 我是 Jianfei 👋"
+    Content = "专注医疗 AI 领域，记录技术探索与个人思考。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Lujianfei2026"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hello@lujianfei.com"
+
+  [params.analytics.google]
+    SiteVerificationTag = ""
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.editPost]
+    URL = "https://github.com/Lujianfei2026/my-site/tree/main/content"
+    Text = "建议修改"
+    appendFilePath = true
+
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showWordCount = true
+  showRssButtonInSectionTermList = true
+  showToc = true
+  tocOpen = false
+  showFullTextinRSS = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
