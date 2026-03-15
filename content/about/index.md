@@ -24,7 +24,7 @@ showPostNavLinks: false
 
 **中文版**
 
-1. **教育背景** — 国内 C9/985 院校本科（西安交通大学），法国工程师学历及硕士学位，具备生物医药与法学复合教育背景。
+1. **教育背景** — 西安交通大学（C9/985）药学本科、法学辅修；法国西布列塔尼大学工程师学历及硕士学位（食品安全专业法国第一）；清华大学公共管理硕士（医院管理方向）；横跨生物医药、法学与公共管理三大学科领域。
 2. **医药产业背景** — 熟悉医药产业发展路径，拥有从药品生产管理、质量管理、注册到市场推广全链条工作经历。
 3. **多学科交叉背景** — 先后深耕传统医药产业、互联网医疗、精准医疗等领域。
 4. **国际化背景** — 具备法国、英国学习与工作经历，长期国际合作经验，熟悉中西方跨文化交流模式。
@@ -39,7 +39,7 @@ showPostNavLinks: false
 
 **English Version**
 
-1. **Education** — B.Sc. from Xi'an Jiaotong University (C9/985), Engineer's Degree & Master's from Université de Bretagne Occidentale, France; solid background in pharmaceutical sciences and law.
+1. **Education** — B.Sc. in Pharmacy (minor: Law) from Xi'an Jiaotong University (C9/985); Engineer's Degree & Master's in Microbiology & Food Safety from Université de Bretagne Occidentale, France (ranked #1 in Food Safety in France); Master of Public Administration (Hospital Management) from Tsinghua University; interdisciplinary background spanning pharmaceutical sciences, law, and public administration.
 2. **Pharma Industry** — Full-chain experience spanning manufacturing QA, quality management, regulatory affairs, and marketing.
 3. **Interdisciplinary Background** — Worked across traditional pharmaceuticals, digital health (internet medicine), and precision medicine.
 4. **International Experience** — Study and work experience in France and the UK; extensive cross-cultural collaboration in international settings.
