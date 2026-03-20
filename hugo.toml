@@ -68,6 +68,21 @@ buildExpired = false
   tocOpen = false
   showFullTextinRSS = false
 
+  # Giscus 评论系统
+  [params.giscus]
+    enable = true
+    repo = "LuJianfei2026/LuJianfei2026.github.io"
+    repoId = "R_kgDORnAebg"
+    category = "Announcements"
+    categoryId = "DIC_kwDORnAebs4C40xz"
+    mapping = "url"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "zh-CN"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
